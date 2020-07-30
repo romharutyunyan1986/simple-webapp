@@ -66,7 +66,12 @@ Open a browser and go to URL
     http://<IP>:5000/how%20are%20you            => I am good, how about you?
     http://<IP>:5000/read%20from%20database     => JOHN
     
-    
+
+# inventory.txt
+```
+db_and_web_server ansible_host=192.168.1.14 ansible_connection=ssh ansible_ssh_pass=Passw0rd 
+```
+
 
 # playbook.yaml
 ```
